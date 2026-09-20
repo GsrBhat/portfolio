@@ -78,16 +78,16 @@ export function Hero({
             </div>
           </div>
 
-          {/* Right Column: Editorial Portrait (5 Cols ~ 42%) */}
+          {/* Right Column: Seated Editorial Portrait (5 Cols ~ 42%) */}
           <div className="lg:col-span-5 w-full flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-md lg:max-w-none aspect-[4/5] overflow-hidden rounded-sm border border-[#DCDAD3] bg-[#DCDAD3]/20 shadow-sm group">
+            <div className="relative w-full max-w-md lg:max-w-none aspect-[4/5] sm:aspect-[3/4] overflow-hidden rounded-sm border border-[#DCDAD3] bg-[#DCDAD3]/20 shadow-sm group">
               <Image
                 src={sharedData.portraitPath}
-                alt={`Formal chest-up portrait of ${sharedData.fullName}`}
+                alt="Sai Rahul Bhat Gaadhi Raju seated in a minimalist editorial portrait"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 40vw"
-                className="object-cover object-top transition-all duration-700 ease-out"
+                className="object-cover object-center transition-all duration-700 ease-out"
               />
               <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[#171717]/80 via-[#171717]/30 to-transparent text-white font-mono-tech text-[11px] tracking-wider uppercase flex justify-between items-end">
                 <div>

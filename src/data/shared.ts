@@ -31,7 +31,7 @@ export const sharedData: SharedData = {
   linkedIn: "https://linkedin.com/in/sairahulbhatg",
   gitHub: "https://github.com/GsrBhat",
   portfolio: "https://sai-rahul-bhat-portfolio.vercel.app",
-  portraitPath: "/images/portrait/rahul-hero.jpeg",
+  portraitPath: "/images/portrait/rahul-editorial.webp",
   education: [
     {
       institution: "Anurag University",
