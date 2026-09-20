@@ -1,0 +1,69 @@
+--- VLSI_RESUME.pdf PAGE 1 ---
+SAI RAHUL BHAT GAADHI RAJU
+ Hyderabad, Telangana, India  |  +91-7989035770  |  gsrbhat20@gmail.com
+ linkedin.com/in/sairahulbhatg  |  github.com/GsrBhat  |  sai-rahul-bhat-portfolio.vercel.app
+PROFESSIONAL SUMMARY
+B.Tech Electronics and Communication Engineering student specializing in RTL design, digital systems, and analog/mixed-signal VLSI design
+flows. Samsung ISWDP Fellow with hands-on training in semiconductor fundamentals, CMOS device physics, and TCAD-based modeling.
+Experienced in designing, simulating, and verifying digital and analog IC architectures using Verilog HDL, Cadence Virtuoso, Xilinx Vivado, and
+Synopsys Sentaurus TCAD. Seeking a core industry internship in RTL design, functional verification, or analog/physical design starting
+December/January.
+EDUCATION
+Anurag University, Hyderabad, India
+Bachelor of Technology in Electronics and Communication Engineering (ECE) — Expected Graduation: 2027
+ •  Cumulative Grade Point Average: 7.95 / 10.0
+Jawaharlal Nehru Government Polytechnic (JNGPT), Ramanthapur, India
+Diploma in Electronics and Communication Engineering (ECE) — 2021 – 2024
+ •  Cumulative Grade Point Average: 9.17 / 10.0 (Graduated with Distinction)
+TECHNICAL TRAINING & INDUSTRY EXPOSURE
+Samsung Fellowship — India Semiconductor Workforce Development Program (ISWDP) | Cohort 8 Scholar, Grade II
+ •  Selected from a national pool of 4,000+ engineering applicants based on technical aptitude.
+•  Completed industry-led training in deep-submicron CMOS fundamentals, short-channel effects, and physical layout principles.
+•  Built active device physics models in Synopsys Sentaurus TCAD to study switching characteristics, threshold voltage variation, and
+transistor-level behavior.
+TECHNICAL SKILLS
+ •  Hardware Description Languages: Verilog HDL (RTL, Behavioral, Dataflow, Structural), Verilog-A
+•  EDA Tools: Cadence Virtuoso, Synopsys Sentaurus TCAD, Xilinx Vivado, ModelSim
+•  Simulation Tools: Spectre (AC, Transient, Mixed-Signal)
+•  Analog & Mixed-Signal Design: Switched-Capacitor Circuits, Operational Amplifier Design, Comparators, Sigma-Delta ADC, Noise
+Shaping, Low-Power Analog Design
+•  Digital Design: RTL Design, Combinational & Sequential Logic, Finite State Machines (FSM)
+•  FPGA Development: FPGA Prototyping, Constraint Definition, Pin Mapping, Clock Definition
+•  Verification: Testbench Development, Waveform Debugging, Simulation-Based Functional Verification
+•  Semiconductor Concepts: CMOS, FinFET, Static Timing Analysis (STA), Setup/Hold Constraint Validation
+•  Programming & Scripting: C, Python (Automation & Scripting), MATLAB (DSP & Filter Design)
+CORE VLSI & DIGITAL PROJECTS
+Design of a Low-Power 2nd-Order Sigma-Delta ADC Using Noise Shaping Techniques | Cadence Virtuoso, Spectre | 18nm FinFET
+ •  Designed a second-order Sigma-Delta ADC architecture using switched-capacitor integrators to achieve in-band noise shaping.
+•  Designed a two-stage Miller-compensated operational amplifier as the core analog building block for the integrator stages.
+•  Developed the comparator and 1-bit feedback DAC completing the ADC feedback loop.
+•  Implemented a Sinc³ (CIC) decimation filter in Verilog-A for digital output filtering.
+•  Performed AC, transient, and mixed-signal simulations in Cadence Virtuoso and Spectre on 18nm FinFET technology.
+•  Optimized the analog core for low-power operation, achieving approximately 51.36 µW power consumption.
+RISC-V 4-Stage Pipelined ALU Design | Xilinx Vivado
+ •  Designed a 4-stage pipelined Arithmetic Logic Unit (Fetch, Decode, Execute, Writeback) aligned with RV32I ISA semantics, separating
+datapath and control logic in Verilog HDL.
+•  Implemented data-forwarding paths and pipeline stall logic to address structural and data hazards across sequential instructions.
+•  Simulated and functionally verified the design in Xilinx Vivado using testbench-driven verification across multiple instruction sequences.
+FPGA-Based Power Quality Anomaly Detection Core | Xilinx Vivado
+ •  Developed a Verilog HDL hardware core to detect voltage fluctuations and frequency-based power quality anomalies.
+•  Synthesized the design in Xilinx Vivado, applying hardware constraints, pin mapping, and clock definitions for target FPGA implementation.
+•  Validated functional behavior and timing through testbench-driven simulation.
+16-Bit ALU Comparative Study (Pipelined vs. Non-Pipelined) | ModelSim & Vivado
+ •  Developed a Verilog HDL test framework to compare pipelined and non-pipelined ALU datapath architectures.
+•  Synthesized both design variants to evaluate VLSI performance metrics, including maximum clock frequency (Fmax), propagation delay,
+and resource utilization.
+•  Analyzed timing behavior and architectural trade-offs between the two implementations through waveform debugging in ModelSim.
+Parameterized N-bit Barrel Shifter Architecture | Xilinx Vivado
+ •  Designed a parameterized N-bit barrel shifter using a cascaded 2-to-1 multiplexer tree (log2N stages) supporting logical and arithmetic shift
+operations.
+•  Implemented the RTL in Verilog HDL, structuring combinational logic to ensure clean synthesis with no inferred latches.
+•  Verified functional correctness across multiple test vectors and control-word combinations through simulation.
+CERTIFICATIONS
+Semiconductor & VLSI — NPTEL
+ •  VLSI Physical Design with Timing Analysis — IIT Roorkee
+•  Digital Design with Verilog HDL — IIT Guwahati (Top 75th percentile)
+•  VLSI Design Flow: RTL to GDS — IIIT Delhi
+Semiconductor & VLSI — Maven Silicon
+ •  VLSI SoC Architecture & Digital Design Overview
+

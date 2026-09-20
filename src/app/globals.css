@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --editorial-bg: #F5F4F0;
+    --editorial-primary: #171717;
+    --editorial-secondary: #6F6E69;
+    --editorial-border: #DCDAD3;
+    --editorial-accent: #596B72;
+    --editorial-accent-muted: #8A8175;
+  }
+
+  body {
+    background-color: var(--editorial-bg);
+    color: var(--editorial-primary);
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Accessibility & Focus States */
+  :focus-visible {
+    outline: 2px solid var(--editorial-accent);
+    outline-offset: 4px;
+  }
+}
+
+/* Helper Utilities */
+.font-mono-tech {
+  font-family: var(--font-mono), monospace;
+}
+
+.bg-editorial-bg {
+  background-color: var(--editorial-bg);
+}
+
+.text-editorial-primary {
+  color: var(--editorial-primary);
+}
+
+.text-editorial-secondary {
+  color: var(--editorial-secondary);
+}
+
+.text-editorial-accent {
+  color: var(--editorial-accent);
+}
+
+.border-editorial {
+  border-color: var(--editorial-border);
+}
+
+/* Editorial line animations */
+.link-underline {
+  position: relative;
+}
+
+.link-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--editorial-primary);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.link-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

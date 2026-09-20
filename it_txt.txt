@@ -1,0 +1,65 @@
+--- IT_RESUME.pdf PAGE 1 ---
+SAI RAHUL BHAT GAADHI RAJU  
+Hyderabad, Telangana  |  +91-7989035770  |  gsrbhat20@gmail.com 
+linkedin.com/in/sairahulbhatg  |  github.com/GsrBhat 
+PROFESSIONAL SUMMARY  
+Software developer with a B.Tech in Electronics and Communication Engineering, focused on full stack development using Java, Spring Boot, React, 
+and Python. Experienced in building AI-integrated applications, REST APIs, and database-driven systems, with a solid foundation in data structures, 
+algorithms, and OOP. Comfortable debugging complex systems, picking up new tools quickly, and collaborating effectively within team 
+environments. Skilled in Git/GitHub version control and technical documentation, with a consistent focus on writing clean, functional, well-tested 
+code. 
+EDUCATION  
+Anurag University — Bachelor of Technology, Electronics and Communication Engineering 
+CGPA: 7.95/10   |   Expected Graduation: 2027 
+Jawaharlal Nehru Government Polytechnic (JNGPT), Ramanthapur, India — Diploma in Electronics and Communication Engineering (ECE) 
+CGPA: 9.17/10 (Graduated with Distinction)   |   2021 – 2024 
+TECHNICAL SKILLS  
+Programming Languages: Java, Python, C, Verilog HDL 
+Frontend: React, HTML, CSS, JavaScript (Basic), Bootstrap 
+Backend: Spring Boot, Spring Security, REST APIs 
+Database: PostgreSQL, SQL 
+Developer Tools: Git, GitHub, VS Code, Maven, Vite, MATLAB, Vivado, Cadence Virtuoso, Cisco Packet Tracer 
+Core CS: Data Structures, Algorithms, OOP, DBMS, Operating Systems, Computer Networks 
+Other: AI, Machine Learning Basics, Linux Basics, Debugging, Testing, Version Control, Technical Documentation 
+PROJECTS  
+Smart Hospital Management System  |  Java 21, Spring Boot 3, Spring Security, React 18, Vite, PostgreSQL, Bootstrap, Axios, Hugging Face API, Maven 
+● Engineered a full stack hospital management platform using Java, Spring Boot, React, and PostgreSQL, implementing appointment 
+booking, patient record management, and queue tracking. 
+● Designed and implemented role-based authentication and authorization for Admin, Doctor, and Patient users with Spring Security, 
+ensuring secure, controlled access across the application. 
+● Integrated an AI-powered doctor recommendation feature using the Hugging Face Inference API to match patients with relevant 
+specialists based on their needs. 
+● Built and tested REST APIs for appointment booking, real-time queue monitoring, and token generation, following clean backend 
+architecture and documenting endpoints for maintainability. 
+RTL Projects  |  Pipelined ALU, Barrel Shifter, 4-bit ALU — Verilog HDL 
+● Designed, simulated, and functionally verified a pipelined ALU, barrel shifter, and 4-bit ALU in Verilog HDL, debugging timing and logic 
+issues through waveform analysis. 
+NOVA OS — AI-Powered Desktop Assistant  |  Python 
+● Engineered NOVA OS, a modular Python-based AI desktop assistant, structuring automation features into independent, maintainable 
+components with a scalable software design. 
+● Debugged and refined assistant behavior across automation workflows to improve reliability and overall user experience. 
+AetherOS — Universal AI Learning Operating System 
+● Designed AetherOS, an AI-driven learning platform featuring a productivity dashboard and modular workspace architecture, 
+incorporating structured database planning and core software engineering practices. 
+FPGA-Based Real-Time Power Quality Anomaly Detection  |  Python, AI/Edge AI 
+● Developed the software layer for a real-time power quality anomaly detection system, handling data processing, algorithm development, 
+testing, and technical documentation using Python and AI concepts. 
+INTERNSHIP  
+Python Programming Intern  |  VaultofCodes 
+● Applied Python programming and logic-building techniques to complete hands-on assignments involving automation and debugging, 
+strengthening core problem-solving skills. 
+ACHIEVEMENTS  
+● Selected for the Samsung ISWDP Cohort 8 Fellowship. 
+● Participated in the India Semiconductor Workforce Development Program (ISWDP). 
+CERTIFICATIONS  
+Oracle: Cloud Infrastructure 2025 Certified AI Foundations Associate   |   Cisco: CCNA – Introduction to Networks 
+Google: Introduction to Generative AI | NPTEL: Digital Design with Verilog • VLSI Physical Design with Timing Analysis • VLSI Design Flow: RTL to GDS 
+Maven Silicon: VLSI SoC Design Overview   |   Foundation for QC Innovation (IISc Bengaluru): Quantum Computing Workshop 
+LANGUAGES  
+English, Hindi, Telugu 
+linkedin.com/in/sairahulbhatg
+ | 
+github.com/GsrBhat
+ | 
+sai-rahul-bhat-portfolio.vercel.app
+
