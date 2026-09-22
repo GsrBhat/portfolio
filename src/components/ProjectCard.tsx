@@ -4,14 +4,21 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { ProjectDetail } from "@/data/vlsi";
 import { SoftwareProjectDetail } from "@/data/software";
+import { motion, useReducedMotion } from "framer-motion";
 
 interface ProjectCardProps {
   project: ProjectDetail | SoftwareProjectDetail;
 }
 
 export function ProjectCard({ project }: ProjectCardProps) {
+  const shouldReduceMotion = useReducedMotion();
+
   return (
-    <article className="group border-b border-[#DCDAD3] py-10 lg:py-12 transition-colors duration-300 hover:bg-[#DCDAD3]/10">
+    <motion.article
+      whileHover={shouldReduceMotion ? undefined : { x: 6 }}
+      transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+      className="group border-b border-[#DCDAD3] py-10 lg:py-12 transition-colors duration-300 hover:bg-[#DCDAD3]/10"
+    >
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
         
         {/* Project Number (2 Cols) */}
@@ -63,11 +70,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
             className="inline-flex items-center gap-2 font-mono-tech text-xs tracking-widest text-[#171717] uppercase group-hover:text-[#596B72] transition-colors link-underline"
           >
             <span>VIEW PROJECT DETAILS</span>
-            <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
           </Link>
         </div>
 
       </div>
-    </article>
+    </motion.article>
   );
 }

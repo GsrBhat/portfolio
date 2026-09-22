@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { motion, useReducedMotion } from "framer-motion";
 
 interface ProfileSwitcherProps {
   currentProfile: "core" | "software";
@@ -10,6 +11,7 @@ interface ProfileSwitcherProps {
 
 export function ProfileSwitcher({ currentProfile, className = "" }: ProfileSwitcherProps) {
   const pathname = usePathname();
+  const shouldReduceMotion = useReducedMotion();
   
   // Preserve sub-routes if navigating within resume or main pages
   const isResumePage = pathname.startsWith("/resume");
@@ -24,7 +26,7 @@ export function ProfileSwitcher({ currentProfile, className = "" }: ProfileSwitc
     >
       <Link
         href={coreHref}
-        className={`px-3 py-1.5 transition-all duration-300 relative ${
+        className={`px-3 py-1.5 transition-colors duration-200 relative ${
           currentProfile === "core"
             ? "text-[#171717] font-semibold"
             : "text-[#6F6E69] hover:text-[#171717]"
@@ -33,7 +35,11 @@ export function ProfileSwitcher({ currentProfile, className = "" }: ProfileSwitc
       >
         <span>CORE / VLSI</span>
         {currentProfile === "core" && (
-          <span className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-[#171717] rounded-full transition-all duration-300" />
+          <motion.span
+            layoutId={shouldReduceMotion ? undefined : "profile-switcher-indicator"}
+            transition={{ type: "spring", stiffness: 350, damping: 30 }}
+            className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-[#171717] rounded-full"
+          />
         )}
       </Link>
 
@@ -43,7 +49,7 @@ export function ProfileSwitcher({ currentProfile, className = "" }: ProfileSwitc
 
       <Link
         href={softwareHref}
-        className={`px-3 py-1.5 transition-all duration-300 relative ${
+        className={`px-3 py-1.5 transition-colors duration-200 relative ${
           currentProfile === "software"
             ? "text-[#171717] font-semibold"
             : "text-[#6F6E69] hover:text-[#171717]"
@@ -52,7 +58,11 @@ export function ProfileSwitcher({ currentProfile, className = "" }: ProfileSwitc
       >
         <span>SOFTWARE / IT</span>
         {currentProfile === "software" && (
-          <span className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-[#171717] rounded-full transition-all duration-300" />
+          <motion.span
+            layoutId={shouldReduceMotion ? undefined : "profile-switcher-indicator"}
+            transition={{ type: "spring", stiffness: 350, damping: 30 }}
+            className="absolute bottom-0 left-0 right-0 h-[1.5px] bg-[#171717] rounded-full"
+          />
         )}
       </Link>
     </nav>

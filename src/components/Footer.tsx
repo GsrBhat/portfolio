@@ -11,7 +11,13 @@ export function Footer() {
           <div className="text-[11px] text-[#6F6E69] mt-0.5">ECE · VLSI · SOFTWARE DEVELOPMENT</div>
         </div>
 
-        <div className="flex items-center gap-6">
+        <div className="flex flex-wrap items-center gap-6">
+          <a
+            href={`tel:${sharedData.phone.replace(/[^0-9+]/g, '')}`}
+            className="hover:text-[#171717] transition-colors"
+          >
+            TEL: {sharedData.phone}
+          </a>
           <a
             href={sharedData.linkedIn}
             target="_blank"
